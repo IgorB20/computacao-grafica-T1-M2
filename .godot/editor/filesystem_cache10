@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1762294921
+::res://assets/::1749589592
+::res://assets/models/::1749593992
+teapot.obj::Mesh/Mesh::5369140122811294721::1749575762::1749575789::1::::<><><>0<>0<>957b281c290b17f086e5fe49fc40b2a9<>res://.godot/imported/teapot.obj-ecf445b95fb43b56b2b24939250aa3c0.mesh<*>res://.godot/imported/teapot.obj-ecf445b95fb43b56b2b24939250aa3c0.mesh::
+::res://scenes/::1762294847
+shader1.tscn::PackedScene::7678293376087072283::1762294747::0::1::::<><><>0<>0<><>::uid://b4ku4pyc51305::::res://shaders/shader1.gdshader
+shader2.tscn::PackedScene::2156256301081129141::1762294847::0::1::::<><><>0<>0<><>::uid://btfifxa4k5b14::::res://shaders/shader2.gdshader
+shader3.tscn::PackedScene::2574336946867321593::1762293767::0::1::::<><><>0<>0<><>::uid://ciq37odybjdob::::res://assets/models/teapot.obj<>uid://cvnsc2m3bxb0m::::res://shaders/shader3.gdshader
+::res://shaders/::1762294894
+shader1.gdshader::Shader::4443807879672783440::1762293405::0::1::::<><><>0<>0<><>::
+shader2.gdshader::Shader::3730826475866896581::1762293405::0::1::::<><><>0<>0<><>::
+shader3.gdshader::Shader::6274741909987806506::1762294356::0::1::::<><><>0<>0<><>::

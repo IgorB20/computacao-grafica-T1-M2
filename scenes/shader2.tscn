@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://5yrhxsmowx3r"]
+
+[ext_resource type="Shader" uid="uid://btfifxa4k5b14" path="res://shaders/shader2.gdshader" id="2_o1nhv"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_dpgf6"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_dpgf6"]
+render_priority = 0
+shader = ExtResource("2_o1nhv")
+shader_parameter/amplitude = 0.3
+shader_parameter/frequency = 4.0
+
+[node name="Teapot" type="Node3D"]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.156918, -0.42207903, 0.29558885)
+mesh = SubResource("CapsuleMesh_dpgf6")
+surface_material_override/0 = SubResource("ShaderMaterial_dpgf6")

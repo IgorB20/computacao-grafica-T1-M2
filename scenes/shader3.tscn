@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3 uid="uid://bcxa7oeofxt4l"]
+
+[ext_resource type="ArrayMesh" uid="uid://ciq37odybjdob" path="res://assets/models/teapot.obj" id="1_jqbx0"]
+[ext_resource type="Shader" uid="uid://cvnsc2m3bxb0m" path="res://shaders/shader3.gdshader" id="2_210a3"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_jqbx0"]
+render_priority = 0
+shader = ExtResource("2_210a3")
+shader_parameter/stripe_width = 0.47000001906512
+shader_parameter/scroll_speed = 0.14000005414999994
+shader_parameter/color_even = Vector3(0.1, 0.1, 0.1)
+shader_parameter/color_odd = Vector3(1, 0.8, 0.2)
+
+[node name="Bunny" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.0138869, 0.2006731, 1.8351736)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(3.58814, 0, 0, 0, 3.58814, 0, 0, 0, 3.58814, 2.271, -2.53069, -2.62275)
+mesh = ExtResource("1_jqbx0")
+surface_material_override/0 = SubResource("ShaderMaterial_jqbx0")
